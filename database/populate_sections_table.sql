@@ -1,0 +1,27 @@
+delete from sections;
+insert into sections (name) values ('Brakes'),
+	('Carburetors'),
+	('Dipstick Mods'),
+	('Duckboards'),
+	('Electrical'),
+	('Engine'),
+	('Exhaust'),
+	('Fenders'),
+	('Final Drive'),
+	('Forks'),
+	('Frame'),
+	('Fuel'),
+	('Gearbox and Clutch'),
+	('Ignition Systems'),
+	('Manuals'),
+	('Odds and Ends'),
+	('Oil'),
+	('Seats'),
+	('Sidecar'),
+	('Speedometer'),
+	('Suspension'),
+	('Tools and Tips'),
+	('Voltage Regulator'),
+	('Wheels');
+
+select name from sections;
